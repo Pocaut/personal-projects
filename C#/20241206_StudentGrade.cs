@@ -1,4 +1,4 @@
-//12.12.2024 Update code using array Sum and Length, left old code at the bottom for comparison.
+//12.12.2024 Updated code using array Sum and Length, left old code at the bottom for comparison.
 
 int[] sophia = {93, 87, 98, 95, 100};
 
