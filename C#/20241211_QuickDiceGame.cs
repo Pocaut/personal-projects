@@ -14,12 +14,11 @@ if ((roll1==roll2) && (roll1==roll3)){
     total += 6;
 }
 
-else{
-if ((roll1==roll2) || (roll2==roll3) || (roll1==roll3)){
+else if ((roll1==roll2) || (roll2==roll3) || (roll1==roll3)){
 
     Console.WriteLine("You rolled doubles! +2 bonus to total!");
     total += 2;
-} }
+}
 
 Console.WriteLine($@"Dice roll: {roll1} + {roll2} + {roll3} 
 Total = {total}");
