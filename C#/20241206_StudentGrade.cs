@@ -1,3 +1,25 @@
+//12.12.2024 Update code using array Sum and Length, left old code at the bottom for comparison.
+
+int[] sophia = {93, 87, 98, 95, 100};
+
+int[] nicolas = {80, 83, 82, 88, 85};
+
+int[] zahirah = {84, 96, 73, 85, 79};
+
+int[] jeong = {90, 92, 98, 100, 97};
+
+decimal sophiaScore = (decimal) sophia.Sum() / sophia.Length;
+decimal nicolasScore = (decimal) nicolas.Sum() / nicolas.Length;
+decimal zahirahScore = (decimal) zahirah.Sum() / zahirah.Length;
+decimal jeongScore = (decimal) jeong.Sum() / jeong.Length;
+
+Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+
+/*
 int currentAssignments = 5;
 
 int sophia1 = 93;
@@ -39,3 +61,4 @@ Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
 Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
 Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
 Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+*/
