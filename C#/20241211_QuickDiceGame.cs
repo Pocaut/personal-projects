@@ -1,5 +1,3 @@
-﻿using System.Runtime.InteropServices.Marshalling;
-
 Random dice = new Random();
 
 int roll1 = dice.Next(1, 7);
