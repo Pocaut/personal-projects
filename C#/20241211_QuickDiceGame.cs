@@ -27,6 +27,6 @@ if (total >= 15){
     Console.WriteLine("Your score was higher than 14. You win!");
 }
 
-if (total < 15){
+else{
     Console.WriteLine("Your score was lower than 15. You Lose!");
 }
