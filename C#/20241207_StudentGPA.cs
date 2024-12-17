@@ -1,3 +1,37 @@
+//Updated 2024.12.16, left old code at the bottom for comparison.
+
+string studentName = "Sophia Johnson";
+string[] courseNames = {"English 101", "Algebra 101", "Biology 101", "Computer Science I", "Psychology 101"};
+
+int i = 0;
+
+int[] courseCredits = {3, 3, 4, 4, 3};
+
+int[] courseGrade = {4, 3, 3, 3, 4};
+
+int totalCreditHours = 0;
+foreach (int credit in courseCredits){
+    totalCreditHours += credit;
+}
+
+int totalGradePoints = 0;
+
+for (i = 0; i < courseCredits.Length; i++)
+{
+    totalGradePoints += courseCredits[i] * courseGrade[i];
+}
+
+decimal gradePointAverage = (decimal)totalGradePoints/totalCreditHours;
+
+Console.WriteLine($"Student: {studentName}\n");
+Console.WriteLine ("Course \t\t\t\tGrade\tCredit");
+for (i = 0; i < courseCredits.Length; i++)
+{
+Console.WriteLine($"{courseNames[i]} \t\t{courseGrade[i]} \t\t{courseCredits[i]}");
+}
+Console.WriteLine($"\nFinal GPA: \t\t\t{gradePointAverage:F2}");
+
+/*
 string studentName = "Sophia Johnson";
 string course1Name = "English 101";
 string course2Name = "Algebra 101";
@@ -44,3 +78,4 @@ Console.WriteLine($"{course3Name} \t\t{course3Grade} \t\t{course3Credit}");
 Console.WriteLine($"{course4Name}  {course4Grade} \t\t{course4Credit}");
 Console.WriteLine($"{course5Name} \t\t{course5Grade} \t\t{course5Credit}");
 Console.WriteLine($"\nFinal GPA: \t\t\t{gradePointAverage:F2}");
+*/
