@@ -22,3 +22,9 @@ string word = "Corvo Attano";
 string isTheWord = word == "Orvo Cattano" ? "Yes" : "No";
 Console.WriteLine(word);
 Console.WriteLine($"Is the word Orvo Cattano? {isTheWord}.");
+
+Random coin = new Random();
+int coinThrow = coin.Next(1,3);
+Console.WriteLine ($"The coin is: {(coinThrow % 2 == 0 ? "Heads" : "Tails")}");
+// or
+//Console.WriteLine ((coin.Next(1,3) % 2 == 0) ? "Heads" : "Tails"); 
