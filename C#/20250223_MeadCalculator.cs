@@ -5,6 +5,6 @@ total = float.Parse(Console.ReadLine());
 float water = total*0.75f;
 float honey = total*0.25f;
 float yeast = total/750;
-Console.WriteLine($"Water amount:: {water}ml.");
-Console.WriteLine($"Honey amount: {honey}ml.");
+Console.WriteLine($"Water amount:: {water}mL.");
+Console.WriteLine($"Honey amount: {honey}mL.");
 Console.WriteLine($"Yeast amount: {yeast}g.");
