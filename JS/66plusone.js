@@ -1,3 +1,4 @@
+// Solution for the 66 - Plus One problem on LeetCode
 let digits = [1, 2, 3];
 
 function plusOne(array) {
