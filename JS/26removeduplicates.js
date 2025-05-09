@@ -1,4 +1,4 @@
-// Solution to the 26 - Remove Duplicates from Sorted Array
+// Solution for the 26 - Remove Duplicates from Sorted Array problem on LeetCode
 let nums = [0,0,1,1,1,2,2,3,3,4];
 
 function removeDuplicates(nums) {
