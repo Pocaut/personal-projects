@@ -1,4 +1,4 @@
-//solution for the 1 - Two Sum challenge on LeetCode
+//solution for the 1 - Two Sum problem on LeetCode
 const nums = [2,7,11,15];
 const target = 9;
 
